@@ -1,34 +1,27 @@
 <html>
+<head>
+    <title>Pagina de anuncios</title>
+    <link rel="stylesheet" href="anuncios.css">
+</head>
 <body>
 <div class="cadastro">
     <div class="campos">
-        <label for="titulo">Titulo:</label><br>
+        <label for="titulo">Titulo:</label>
         <input type="text" id="titulo" ><br>
-        <br>
-        <label for="descricao">Descricao:</label><br>
+        <label for="descricao">Descricao:</label>
         <input type="text" id="descricao"><br>
-        <br>
-        <label for="preco">Preco:</label><br>
+        <label for="preco">Preco:</label>
         <input type="text" id="preco" value="R$ "><br>
-        <br>
-        <label for="dataCricao">Data de criacao:</label><br>
+        <label for="dataCricao">Data de criacao:</label>
         <input type="date" id="dataCricao"><br>
-        <br>
-        <label for="dataValidade">Data de validade:</label><br>
+        <label for="dataValidade">Data de validade:</label>
         <input type="date" id="dataValidade"><br>
         <br>
     </div>
     <div class="botoes">
-        <input type="button" id="concluir" value="concluir">
-        <input type="button" id="cancelar" value="cancelar">
+        <input class="botao" type="button" id="concluir" value="concluir">
+        <input class="botao" type="button" id="cancelar" value="cancelar">
     </div>
 </div>
 </body>
 </html>
-
-CREATE TABLE table_name (
-Titulo text(100),
-Descricao text(250),
-Preco num(64),
-
-);

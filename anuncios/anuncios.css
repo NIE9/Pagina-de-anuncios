@@ -1,5 +1,8 @@
 .cadastro{
     display: flex;
+    position: fixed;
+    left: 43.5%;
+    top: 10%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -8,10 +11,18 @@
 .campos{
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
 }
 
-.botoes{
+.botoes {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.botao {
+    width: 45%;
 }
 
